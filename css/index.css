@@ -1,0 +1,178 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.container1{
+    width: 100%;
+    min-height: 650px;
+    float: left;
+    padding: 40px;
+    background-image: url('../images/360_F_478957385_zCuEGTXNJKPygVCxmxkY01oV7JFVUFDv.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container1 .navbar .logo{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.navbar ul li{
+    transition: 0.5s;
+    /* font-size: 20px; */
+    
+}
+
+.navbar ul li a{
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar ul li a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 7px;
+    transition: 0.4s;
+}
+
+.c1-center{
+    width: 100%;
+    min-height: 450px;
+    /* float: left; */
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.c1-center span{
+    font-size: 70px;
+}
+
+.c1-center p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+.container2{
+    width: 100%;
+    min-height: 650px;
+    /* background:blue; */
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 .left-c{
+    width: 50%;
+    min-height: 300px;
+    float: left;
+    margin-top: 120px;
+}
+
+.container2 .right-c{
+    width: 50%;
+    min-height: 350px; 
+    float: left;
+    margin-top: 120px;
+}
+
+.container2 .left-c .one{
+    font-size: 30px;
+    padding-left: 10px;
+    color: #91BAC4;
+}
+
+.container2 .left-c .two{
+    font-size: 65px;
+    padding-left: 10px;
+    color: #000002;
+}
+
+.container2 .left-c .three{
+    padding-top: 90px;
+    float: left;
+    color: #CCCECE;
+}
+
+/* .container2 .left-c.seo{
+    width: 25%;
+    height: 50px;
+    background: purple;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.right-c{
+    background-image: url('../images/smartphone-cases-mockup-leaned_1332-3387.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.c2-center{
+    width: 100%;
+    min-height: 320px;
+    float: left;
+    margin-top: -350px;
+    margin-right: 200px;
+}
+
+
+.left{
+    width: 30%;
+    height: 300px;
+    background: #00BCD4;
+    float: left;
+}
+
+.center{
+    width: 40%;
+    height: 320px;
+    background: #5E368F;
+    float: left;
+}
+
+.right{
+    width: 30%;
+    height: 300px;
+    background: #00BCD4;
+    float: left;
+}
+
+.left .text-1{
+    color: white;
+}
+
+.left .text-2{
+    color: white;
+}
+
+
+
+
+
+
+
